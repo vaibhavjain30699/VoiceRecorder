@@ -5,11 +5,14 @@ A modern Android application built with **Jetpack Compose** designed for healthc
 ## 🚀 Features
 
 - **High-Quality Audio**: Records audio in `.m4a` (AAC) format for clear playback and small file sizes.
-- **Live Transcription**: Integrated Google Speech-to-Text for real-time visual feedback during recording sessions.
 - **Waveform Visualizer**: A custom-drawn Canvas waveform that reacts to microphone input levels.
 - **WAV/PCM Ready**: (Optionally) uses low-level `AudioRecord` for granular sound control.
-- **Organized Storage**: Automatically saves recordings to the public `Music/VoiceRecorder/` folder, organized into sub-folders by patient name.
+- **Organized Storage**: Automatically saves recordings to the public `Music/VoiceRecorder/Patients Name` folder, organized into sub-folders by patient name.
 - **Material Design 3**: Modern, clean UI featuring dynamic action buttons and themed surfaces.
+
+## Upcoming Features
+
+- - **Live Transcription**: Integrated Google Speech-to-Text for real-time visual feedback during recording sessions.
 
 ## 🛠 Prerequisites
 
@@ -41,8 +44,7 @@ A modern Android application built with **Jetpack Compose** designed for healthc
 ### 5. Using the App
 * **Permissions**: Upon first launch, the app will request Microphone permission. Click "Allow."
 * **Record**: Tap the Play button to start recording. You will see the timer start and the waveform move.
-* **Live Text**: Speak clearly; the "Transcription Box" will update in real-time.
-* **Save**: Tap "Stop" then "Save" to move the recording from temporary storage to your public `Music/VoiceRecorder/` folder.
+* **Save**: Tap "Stop" then "Save" to move the recording from temporary storage to your public `Music/VoiceRecorder/Patients Name` folder.
 
 ---
 
