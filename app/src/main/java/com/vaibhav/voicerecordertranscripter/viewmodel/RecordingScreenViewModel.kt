@@ -1,4 +1,4 @@
-package com.vaibhav.voicerecordertranscripter
+package com.vaibhav.voicerecordertranscripter.viewmodel
 
 import android.content.ContentValues
 import android.content.Context
@@ -13,6 +13,7 @@ import android.speech.SpeechRecognizer
 import android.widget.Toast
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.vaibhav.voicerecordertranscripter.model.RecordingScreenState
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow

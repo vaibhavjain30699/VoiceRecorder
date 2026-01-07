@@ -1,4 +1,4 @@
-package com.vaibhav.voicerecordertranscripter
+package com.vaibhav.voicerecordertranscripter.model
 
 data class RecordingScreenState(
     val patientName: String = "",
