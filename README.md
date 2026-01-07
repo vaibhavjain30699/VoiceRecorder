@@ -12,7 +12,7 @@ A modern Android application built with **Jetpack Compose** designed for healthc
 
 ## Upcoming Features
 
-- - **Live Transcription**: Integrated Google Speech-to-Text for real-time visual feedback during recording sessions.
+- **Live Transcription**: Integrated Google Speech-to-Text for real-time visual feedback during recording sessions (Currently using Dummy Data).
 
 ## 🛠 Prerequisites
 
